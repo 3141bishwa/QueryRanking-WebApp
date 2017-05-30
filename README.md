@@ -1,15 +1,14 @@
 # Query Classification using Word Vectors
 
-The following web application creates a web application locally that classifies  queries into different catgeories based on the North American Product Classification System (NAPCS).
+The following web application creates a web application locally that classifies  queries into different catgeories based on the North American Product Classification System (NAPCS). For a full description of how the application works, have a look at the [paper](https://drive.google.com/file/d/0B1ttwhq718PdV1Rrbk0tT01iOGxhRHlsOHJJYkV4Qmx6OHhv/view?usp=sharing)
 
 Here are the steps to install and run the web application
-
 
 Assuming you have virtualenv installed on your computer (if not)
 
 Create a directory 'QueryApp' somewhere on your machine.
 
-Change your directory to that folder using `cd`.
+`cd QueryApp`
 
 Create a virtual environment using
 
