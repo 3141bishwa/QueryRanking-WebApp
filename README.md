@@ -5,6 +5,36 @@ The following web application creates a web application locally that classifies 
 Here are the steps to install and run the web application
 
 
-- First of all create a virtual environment. Make sure virtual enviroment is installed on your machine.
-- On the command line, type virtualenv <project_name>
-- 
+Assuming you have virtualenv installed on your computer (if not)
+
+Create a directory 'QueryApp' somewhere on your machine.
+
+Change your directory to that folder using `cd`.
+
+Create a virtual environment using
+
+`virtualenv query`
+
+To begin using the virtual environment, it needs to be activated. For that , go inside the directory and do
+
+`cd query`
+
+`source bin/activate`
+
+Now copy the Git repository inside the directory using:
+
+`git clone https://github.com/bishwa3141/QueryRanking-WebApp.git`
+
+Since we are in a virtual environment, we need to add dependencies required to run the app separately. These dependencies are mentioned in requirements.txt. Install them on your virtual environment by going into the project folder 
+
+`cd QueryRanking-WebApp`
+
+and doing
+
+`pip install -r requirements.txt`
+
+Next, download the pre-trained word2vec model (from here)[https://drive.google.com/uc?id=0B7XkCwpI5KDYNlNUTTlSS21pQmM&export=download] and put it inside your directory.
+
+
+Run the application locally using 
+`python manage.py runserver`
