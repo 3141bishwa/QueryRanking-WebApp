@@ -2,7 +2,7 @@
 
 The following web application creates a web application locally that classifies  queries into different catgeories based on the North American Product Classification System (NAPCS). For a full description of how the application works, have a look at the [paper](https://drive.google.com/file/d/0B1ttwhq718PdV1Rrbk0tT01iOGxhRHlsOHJJYkV4Qmx6OHhv/view?usp=sharing)
 
-Here are the steps to install and run the web application
+Here are the steps to install and run the web application on a **Unix-based machine(Linux, macOS)**. If you use a Windows machine, the steps are similar but not exactly the same. Have a look at [this article](http://timmyreilly.azurewebsites.net/python-pip-virtualenv-installation-on-windows/) to figure out how to use pip and virtual environments in Windows. 
 
 Assuming you have virtualenv installed on your computer (if not)
 
