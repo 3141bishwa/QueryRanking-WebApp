@@ -33,7 +33,7 @@ and doing
 
 `pip install -r requirements.txt`
 
-Next, download the pre-trained word2vec model (from here)[https://drive.google.com/uc?id=0B7XkCwpI5KDYNlNUTTlSS21pQmM&export=download] and put it inside your directory.
+Next, download the pre-trained word2vec model [from here](https://drive.google.com/uc?id=0B7XkCwpI5KDYNlNUTTlSS21pQmM&export=download) and put it inside your directory.
 
 
 Run the application locally using 
