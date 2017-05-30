@@ -4,7 +4,7 @@ The following web application creates a web application locally that classifies 
 
 Here are the steps to install and run the web application on a **Unix-based machine(Linux, macOS)**. If you use a Windows machine, the steps are similar but not exactly the same. Have a look at [this article](http://timmyreilly.azurewebsites.net/python-pip-virtualenv-installation-on-windows/) to figure out how to use pip and virtual environments in Windows. 
 
-Assuming you have virtualenv installed on your computer (if not)
+Assuming you have virtualenv installed on your computer (if not you can install virtualenv using `pip install virtualenv`)
 
 Create a directory 'QueryApp' somewhere on your machine.
 
@@ -14,7 +14,7 @@ Create a virtual environment using
 
 `virtualenv query`
 
-To begin using the virtual environment, it needs to be activated. For that , go inside the directory and do
+Virtualenv creates a Python environment that is segregated from your system wide Python installation. In this way, you can test your module without any external packages mucking up the result. To begin using the virtual environment, it needs to be activated. For that, do
 
 `cd query`
 
