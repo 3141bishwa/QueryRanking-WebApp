@@ -34,6 +34,17 @@ and doing
 
 Next, download the pre-trained word2vec model [from here](https://drive.google.com/uc?id=0B7XkCwpI5KDYNlNUTTlSS21pQmM&export=download) and put it inside your directory.
 
+The directory will look somewhat like this now.
+
+QueryRanking-WebApp/
+|-- db.sqlite3
+|-- GoogleNews-vectors-negative300.bin.gz
+|-- manage.py
+|-- query_rank
+|-- rank
+|-- README.md
+|-- requirements.txt
+|-- runtime.txt
 
 Run the application locally using 
 `python manage.py runserver`
