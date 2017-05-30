@@ -23,7 +23,7 @@ To begin using the virtual environment, it needs to be activated. For that , go 
 
 Now copy the Git repository inside the directory using:
 
-`git clone https://github.com/bishwa3141/QueryRanking-WebApp.git`
+`https://github.com/3141bishwa/QueryRanking-WebApp.git`
 
 Since we are in a virtual environment, we need to add dependencies required to run the app separately. These dependencies are mentioned in requirements.txt. Install them on your virtual environment by going into the project folder 
 
@@ -38,3 +38,16 @@ Next, download the pre-trained word2vec model [from here](https://drive.google.c
 
 Run the application locally using 
 `python manage.py runserver`
+
+Wait up for a couple of minutes for the model to load.
+Once the model is loaded, you should see a message on the command line like this.
+
+`Time taken to load the model: 114.003504
+System check identified no issues (0 silenced).
+May 30, 2017 - 19:54:40
+Django version 1.11, using settings 'query_rank.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CONTROL-C.`
+
+Now, open a browser and type http://127.0.0.1:8000/ in the address bar. The web application will load.
+
