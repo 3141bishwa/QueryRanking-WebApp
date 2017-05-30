@@ -24,7 +24,7 @@ class Model(object):
         return np.dot(vec_a, vec_b) / (np.linalg.norm(vec_a) * np.linalg.norm(vec_b))
 
 
-word2vec_filename = 'rank/GoogleNews-vectors-negative300.bin.gz'
+word2vec_filename = 'GoogleNews-vectors-negative300.bin.gz'
 
 import pandas as pd
 import nltk
