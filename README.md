@@ -22,7 +22,7 @@ Virtualenv creates a Python environment that is segregated from your system wide
 
 Now copy the Git repository inside the directory using:
 
-`https://github.com/3141bishwa/QueryRanking-WebApp.git`
+`git clone https://github.com/3141bishwa/QueryRanking-WebApp.git`
 
 Since we are in a virtual environment, we need to add dependencies required to run the app separately. These dependencies are mentioned in requirements.txt. Install them on your virtual environment by going into the project folder 
 
